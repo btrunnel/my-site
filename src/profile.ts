@@ -16,26 +16,26 @@
 
 export const profile = {
   /** Your name as you want it to appear everywhere. */
-  displayName: "Your Name",
+  displayName: "Brayden Trunnell",
 
   /** Your UD email — must match the one you signed into the course with. */
-  email: "you@udel.edu",
+  email: "btrunnel@udel.edu",
 
   /** Where you're from. Shows on your roster card and /about. */
-  hometown: "Newark, Delaware",
+  hometown: "Middletown, Delaware",
 
   /**
    * 2 to 4 fun facts (the grader checks the count!). Real ones: they're
    * how classmates find something to say hello about.
    */
   funFacts: [
-    "I once assembled IKEA furniture without leftover screws.",
-    "I can name every U.S. state capital in under two minutes.",
+    "I love travveling and have been to 15 countries.",
+    "I love playing and watching basketball.",
   ],
 
   /** One decision you're proud of, in a sentence. */
   decisionImProudOf:
-    "I chose to take a gap semester to work retail; it taught me more about customers than any textbook.",
+    "I Joined Delta Sigma Pi which is a proffesional fraternity, and it has been a great experience.",
 
   /**
    * Your photo. Replace public/photo.svg with a real photo of you
@@ -65,5 +65,6 @@ export const profile = {
    * verify you have ≥ 5 commits spread over days (not one bulk dump).
    * Example: "https://github.com/your-username/your-repo"
    */
-  repoUrl: "https://github.com/your-username/your-repo",
+  repoUrl: "https://github.com/btrunnel/my-site",
 };
+
