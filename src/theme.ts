@@ -10,10 +10,10 @@
  */
 
 /** ── 1. Pick your palette ──────────────────────────────────────────────
- * One word from: "regatta" | "dune" | "orchard" | "noir"
+ * One word from: "regatta" | "dune" | "orchard" | "noir" | "studio"
  * (Or invent your own: copy a palette below, change the colors, name it.)
  */
-export const paletteChoice = "regatta";
+export const paletteChoice = "studio";
 
 /** ── 2. Pick your font pairing ─────────────────────────────────────────
  * One word from: "editorial" | "geometric" | "classic"
@@ -21,7 +21,7 @@ export const paletteChoice = "regatta";
  *   geometric — modern grotesk headings (tech/startup feel)
  *   classic   — high-contrast serif headings (timeless feel)
  */
-export const fontChoice = "editorial";
+export const fontChoice = "geometric";
 
 /** ── 3. (Optional) Override the accent ─────────────────────────────────
  * Set to any CSS color (e.g. "#c2410c" or "rebeccapurple") to replace the
@@ -91,6 +91,16 @@ export const PALETTES: Record<string, Palette> = {
     line: "#2c2c31",
     accent: "#e8b04b",
     accentInk: "#1a1508",
+  },
+  /** White paper, black ink, one accent — gallery by day. */
+  studio: {
+    paper: "#ffffff",
+    surface: "#f4f4f5",
+    ink: "#0a0a0a",
+    muted: "#5c5c5c",
+    line: "#e5e5e5",
+    accent: "#0a0a0a",
+    accentInk: "#ffffff",
   },
 };
 
