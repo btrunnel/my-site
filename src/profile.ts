@@ -29,7 +29,7 @@ export const profile = {
    * how classmates find something to say hello about.
    */
   funFacts: [
-    "I love travveling and have been to 15 countries.",
+    "I love traveling and have been to 15 countries.",
     "I love playing and watching basketball.",
   ],
 
