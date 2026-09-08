@@ -59,8 +59,8 @@ export function Guestbook() {
   }
 
   return (
-    <div className="mt-6">
-      <form onSubmit={sign} className="rounded-xl border border-line bg-surface p-5">
+    <div className="mt-8">
+      <form onSubmit={sign} className="rounded-2xl border border-line bg-surface p-6">
         <div className="flex flex-col gap-3 sm:flex-row">
           <input
             required
