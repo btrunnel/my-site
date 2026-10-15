@@ -8,6 +8,6 @@ import { profile } from "@/profile";
 export async function GET() {
   return NextResponse.json({
     name: profile.displayName,
-    email: profile.email,
+    email: "btrunnel@udel.edu" ,
   });
 }
